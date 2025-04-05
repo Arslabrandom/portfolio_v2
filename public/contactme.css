@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --periwinkle: #CAD6FFff;
+    --alabaster: #ECE9E0ff;
+    --coral: #FC8C67ff;
+    --tea-green: #C2D5A7ff;
+}
+
+@font-face {
+    font-family: 'glowdust';
+    src: url('./font/glowdust.ttf') format('truetype');
+}
+
+@media screen and (max-width: 767px) {
+    .main-container {
+        height: 100svh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+
+    .header {
+        font-family: 'glowdust', sans-serif;
+        font-size: 2.8rem;
+        margin: 24px 0 24px;
+    }
+    .link {
+        text-decoration: none;
+        font-family: 'glowdust', sans-serif;
+        font-size: 2rem;
+        color: #2c2c2c;
+        width: 100%;
+        text-align: center;
+        padding: 0 20px 0 20px;
+        border: 2px solid #2c2c2c;
+    }
+    .btn-1 {
+        background-color: var(--periwinkle);
+    }
+    .btn-2 {
+        background-color: var(--coral);
+        margin: 26px 0 26px 0;
+    }
+    .btn-3 {
+        background-color: var(--tea-green);
+    }
+}
