@@ -239,7 +239,7 @@
     .p3-header {
         font-family: 'glowdust', sans-serif;
         font-size: 4rem;
-        margin: 12px 0 18px 0;
+        margin: 14px 0 18px 0;
         text-align: center;
     }
 
@@ -252,7 +252,7 @@
     }
 
     .il {
-        margin: 0 0 18px 0;
+        margin: 2px 0 18px 0;
     }
 
     .p3-tile-container {
